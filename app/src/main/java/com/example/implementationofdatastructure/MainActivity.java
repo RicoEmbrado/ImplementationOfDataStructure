@@ -22,6 +22,24 @@ public class MainActivity extends AppCompatActivity
         stackDataStructure.push("Jimmy");
         stackDataStructure.push("Fiona");
         stackDataStructure.push("Phillip");
+        stackDataStructure.push("Debbie");
+        stackDataStructure.push("Ian");
+        stackDataStructure.push("Frank");
+        stackDataStructure.push("Monica");
+        stackDataStructure.push("Carl");
+        stackDataStructure.push("Liam");
+        stackDataStructure.push("Veronica");
+        stackDataStructure.push("Kevin");
+        stackDataStructure.push("Karen");
+        stackDataStructure.push("Mandy");
+        stackDataStructure.push("Patrick");
+        stackDataStructure.push("Kamala");
+        stackDataStructure.push("Sheila");
+        stackDataStructure.push("Jody");
+        stackDataStructure.push("Mickey");
+        stackDataStructure.push("Kermit");
+        stackDataStructure.push("Amanda");
+        stackDataStructure.push("Sierra");
 
         displayNames();
     }
