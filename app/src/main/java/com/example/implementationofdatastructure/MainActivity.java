@@ -2,6 +2,7 @@ package com.example.implementationofdatastructure;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.os.Bundle;
 
@@ -9,6 +10,7 @@ public class MainActivity extends AppCompatActivity
 {
     private StackDataStructure stackDataStructure;
     private LinearLayout linearLayout;
+    private ScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -18,6 +20,8 @@ public class MainActivity extends AppCompatActivity
 
         stackDataStructure = new StackDataStructure();
         linearLayout = findViewById(R.id.linear_layout);
+        scrollView = findViewById(R.id.scroll_view);
+        scrollView.setTextSize(20);
 
         stackDataStructure.push("Jimmy");
         stackDataStructure.push("Fiona");
