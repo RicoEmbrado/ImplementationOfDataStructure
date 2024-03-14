@@ -31,6 +31,7 @@ public class StackDataStructure
         }
     }
 
+
     public String pop()
     {
         if (isEmpty())
